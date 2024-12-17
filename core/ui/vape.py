@@ -25,6 +25,7 @@ def vape(minecraft_ui):
                                             \033[1;32m║    \033[1;39m    Vape        \033[1;32m║          
                                             \033[1;39m└────────────────────┘          
 \033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mBack to previous page
+\033[1;31m[\033[1;39m4.16\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.16\033[1;31m]  
 \033[1;31m[\033[1;39m4.12\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.12\033[1;31m]  
 \033[1;31m[\033[1;39m4.10\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.10\033[1;31m] \033[1;31m[\033[1;33mUse at your own risk\033[1;31m]
 \033[1;31m[\033[1;39m4.06\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv4.06\033[1;31m] 
@@ -45,6 +46,8 @@ def vape(minecraft_ui):
     if chon == '-':
           os.system('cls')
           minecraft_ui(vape)
+    elif chon == '4.16':
+          webbrowser.open_new("http://johnspecial.ydns.eu/vape4.16")
     elif chon == '4.12':
           webbrowser.open_new("https://pixeldrain.com/u/NDUssvGf")
     elif chon == '4.10':
