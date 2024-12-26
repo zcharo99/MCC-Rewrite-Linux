@@ -123,6 +123,7 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m93.1\033[1;31m] \033[1;32mWannaCry \033[1;31m[\033[1;33mV2\033[1;31m]
 \033[1;31m[\033[1;39m94.1\033[1;31m] \033[1;32mRaid0 \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m95.1\033[1;31m] \033[1;32mRipterms \033[1;31m[\033[1;33mUnknown version\033[1;31m]
+\033[1;31m[\033[1;39m96.1\033[1;31m] \033[1;32mCrypt 
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐
                                                 \033[1;32m║    \033[1;39m   Blatant     \033[1;32m║
@@ -721,6 +722,8 @@ def minecraft_ui(main_ui):
                webbrowser.open_new("https://www.mediafire.com/file/ugostl54ku518ew/Raid0.zip/file")
            elif chon == '95.1':
                webbrowser.open_new("https://www.mediafire.com/file/v7qncdv73rcprvs/Ripterms.rar/file")
+           elif chon == '95.1':
+               webbrowser.open_new("https://github.com/AIbird/Crypt-Client-")
            elif chon == '1.2':
                os.system('cls')
                vestige(minecraft_ui)
