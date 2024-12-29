@@ -26,3 +26,5 @@ from .ui.vape import *
 from .ui.raven import *
 from .ui.liquidbounce import *
 from .ui.rise import *
+from .ui.csgo import *
+from .ui.cs2 import *

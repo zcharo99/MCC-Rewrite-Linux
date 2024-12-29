@@ -21,7 +21,10 @@ def credits(main_ui):
                                  | Mimhax (mimhax.netlify.app)                       |
                                  | Trillium INC. (https://discord.gg/VF473pGEV5)     |
                                  | Splash Software (https://discord.gg/GUw9bwuWrm)   |
-                                 | The Milk Archive (https://discord.gg/qRamG6p2Hn)  |
+                                 | hvh.net (https://hackvshack.net)                  |
+                                 | HydraReverse (t.me/hydrareverse)                  |
+                                 | Anon-Team (https://t.me/anonteam1337)             |
+
 
                               Report to us if you found any invite link here not working.
                                              Press any key to return.

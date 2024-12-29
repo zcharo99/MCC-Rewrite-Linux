@@ -18,7 +18,7 @@ def minecraft_ui(main_ui):
 \033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
        \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
-       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 1.0.8                                          \033[1;32m║
+       \033[1;32m║                           \033[1;39m  Version          : \033[1;30m 2.0.0                                          \033[1;32m║
        \033[1;32m║                           \033[1;39m  Discord          : \033[1;34m discord.gg/chiterl                             \033[1;32m║
        \033[1;32m║                           \033[1;39m  Source           : \033[1;33m github.com/mcc-loader/Loader                   \033[1;32m║
        \033[1;32m║                           \033[1;39m  Loader Plan      : \033[1;32m Free                                           \033[1;32m║
@@ -28,7 +28,7 @@ def minecraft_ui(main_ui):
                                                 \033[1;39m┌────────────────────┐         
                                                 \033[1;32m║    \033[1;39m    Ghost       \033[1;32m║          
                                                 \033[1;39m└────────────────────┘          
-\033[1;31m[\033[1;39m1.1\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv0.28->v4.12\033[1;31m]  
+\033[1;31m[\033[1;39m1.1\033[1;31m] \033[1;32mVape Client \033[1;31m[\033[1;33mv0.28->v4.16\033[1;31m]  
 \033[1;31m[\033[1;39m2.1\033[1;31m] \033[1;32mBlossom 
 \033[1;31m[\033[1;39m3.1\033[1;31m] \033[1;32mDream Client \033[1;31m[\033[1;33mv4.6 + v4.8\033[1;31m]
 \033[1;31m[\033[1;39m4.1\033[1;31m] \033[1;32mSlapp \033[1;31m[\033[1;33mv1.28\033[1;31m] 
@@ -123,7 +123,8 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m93.1\033[1;31m] \033[1;32mWannaCry \033[1;31m[\033[1;33mV2\033[1;31m]
 \033[1;31m[\033[1;39m94.1\033[1;31m] \033[1;32mRaid0 \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m95.1\033[1;31m] \033[1;32mRipterms \033[1;31m[\033[1;33mUnknown version\033[1;31m]
-\033[1;31m[\033[1;39m96.1\033[1;31m] \033[1;32mCrypt 
+\033[1;31m[\033[1;39m96.1\033[1;31m] \033[1;32mOxy Client
+\033[1;31m[\033[1;39m97.1\033[1;31m] \033[1;32mUnicorn Client
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐
                                                 \033[1;32m║    \033[1;39m   Blatant     \033[1;32m║
@@ -241,6 +242,7 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m111.2\033[1;31m] \033[1;32mAcrimony Client \033[1;31m[\033[1;33m1.05\033[1;31m]
 \033[1;31m[\033[1;39m112.2\033[1;31m] \033[1;32mPolarWare \033[1;31m[\033[1;33mHaven't check yet\033[1;31m]
 \033[1;31m[\033[1;39m113.2\033[1;31m] \033[1;32mDoomsDay \033[1;31m[\033[1;33mLatest\033[1;31m]
+\033[1;31m[\033[1;39m114.2\033[1;31m] \033[1;Exibition  
 \033[1;97m= = = = = =  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐          
                                                 \033[1;32m║  \033[1;39m     Clicker     \033[1;32m║          
@@ -500,6 +502,7 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m93.5\033[1;31m] \033[1;32mCloud Client Source \033[1;31m[\033[1;33m1.1\033[1;31m]
 \033[1;31m[\033[1;39m94.5\033[1;31m] \033[1;32mDeluge Client Source \033[1;31m[\033[1;33m0.23\033[1;31m]
 \033[1;31m[\033[1;39m95.5\033[1;31m] \033[1;32mIcarus Client Source \033[1;31m[\033[1;33mB15\033[1;31m]
+\033[1;31m[\033[1;39m96.5\033[1;31m] \033[1;32mCrypt Client Source 
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐
                                                 \033[1;32m║ \033[1;39m     Anarchy      \033[1;32m║
@@ -722,8 +725,10 @@ def minecraft_ui(main_ui):
                webbrowser.open_new("https://www.mediafire.com/file/ugostl54ku518ew/Raid0.zip/file")
            elif chon == '95.1':
                webbrowser.open_new("https://www.mediafire.com/file/v7qncdv73rcprvs/Ripterms.rar/file")
-           elif chon == '95.1':
-               webbrowser.open_new("https://github.com/AIbird/Crypt-Client-")
+           elif chon == '96.1':
+               webbrowser.open_new("https://github.com/Oxy-Client/Client")
+           elif chon == '97.1':
+               webbrowser.open_new("https://www.mediafire.com/file/5fkv4m39dy0fmbw/Unicorn.zip/file")
            elif chon == '1.2':
                os.system('cls')
                vestige(minecraft_ui)
@@ -953,6 +958,8 @@ def minecraft_ui(main_ui):
                webbrowser.open_new("https://workupload.com/file/zTxjLZ3gHwa")
            elif chon == '113.2':
                webbrowser.open_new("https://doomsdayclient.com/")
+           elif chon == '114.2':
+               webbrowser.open_new("https://minesense.pub/download/")
            elif chon == '1.3':
                webbrowser.open_new("https://www.mediafire.com/file/uixqtdbh7laysge/1337_Clicker.zip/file")
            elif chon == '2.3':
@@ -1443,6 +1450,8 @@ def minecraft_ui(main_ui):
                webbrowser.open_new("https://www.mediafire.com/file/12f3zgonyjx8swe/Deluge+0.23.zip/file")
            elif chon == '95.5':
                webbrowser.open_new("https://www.mediafire.com/file/um0ku2ykzq5xwqx/Icarus+B15.zip/file")
+           elif chon == '96.5':
+               webbrowser.open_new("https://github.com/AIbird/Crypt-Client-")
            elif chon == '1.6':
                webbrowser.open_new("https://mimhax.netlify.app/Files/seppuku.jar")
            elif chon == '2.6':

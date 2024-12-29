@@ -2,9 +2,9 @@ from core import *
 
 def windowtitle(a):
     os.system(f"title {a}")
-windowtitle("MCC Loader 2.0")
+windowtitle("MCC Loader 2.0.0")
 def update():
-    current_version = "2.0"
+    current_version = "2.0.0"
     version_url = "https://raw.githubusercontent.com/mcc-loader/Loader/refs/heads/main/version"
 
     response = requests.get(version_url)
@@ -25,12 +25,12 @@ def update():
         time.sleep(1)
 update()
 try:
-    f = open('TOSVDOIAHWOIHSAKLFHWA.txt')
+    f = open('tos.txt')
 except FileNotFoundError:
     display_tos()
 else:
     f.close
-    subprocess.check_call(["attrib", "+H", "TOSVDOIAHWOIHSAKLFHWA.txt"])
+    subprocess.check_call(["attrib", "+H", "tos.txt"])
 banner = f"""                                      You have accepted MCC Loader's terms of service.
 
                  ███╗░░░███╗░█████╗░░█████╗░██╗░██████╗  ░█████╗░██████╗░░█████╗░██╗░░██╗██╗██╗░░░██╗███████╗

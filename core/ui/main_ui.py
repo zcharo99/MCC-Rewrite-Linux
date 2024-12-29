@@ -1,7 +1,8 @@
 from core import *
 from core.etc.credits import *  
 from core.ui.minecraft import *
-
+from core.ui.csgo import *
+from core.ui.cs2 import *
 
 def main_ui(minecraft_ui):
     nig = """
@@ -22,7 +23,7 @@ def main_ui(minecraft_ui):
    \033[0;31m                                            Choose your favourite game. 
 
 
-                                                   \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft
+                                 \033[1;31m[\033[1;39m1\033[1;31m] \033[1;32mMinecraft           \033[1;31m[\033[1;39m2\033[1;31m] \033[1;32mCS:GO           \033[1;31m[\033[1;39m3\033[1;31m] \033[1;32mCS2
     """
     print(nig)
     while True:
@@ -34,7 +35,14 @@ def main_ui(minecraft_ui):
             print("                                              \033[1;39mLoading Minecraft Page..")
             os.system('cls')
             minecraft_ui(main_ui)
-        
+        if chon == '2':
+            print("                                              \033[1;39mLoading CS:GO Page..")
+            os.system('cls')
+            csgo(main_ui)
+        if chon == '3':
+            print("                                              \033[1;39mLoading CS2 Page..")
+            os.system('cls')
+            cs2(main_ui)
         elif chon == 'c' or chon == 'C':
             print("                                                  \033[1;39mRendering Credits..")
             os.system('cls')
