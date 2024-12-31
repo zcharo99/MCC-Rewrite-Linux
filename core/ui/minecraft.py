@@ -125,6 +125,7 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m95.1\033[1;31m] \033[1;32mRipterms \033[1;31m[\033[1;33mUnknown version\033[1;31m]
 \033[1;31m[\033[1;39m96.1\033[1;31m] \033[1;32mOxy Client
 \033[1;31m[\033[1;39m97.1\033[1;31m] \033[1;32mUnicorn Client
+\033[1;31m[\033[1;39m98.1\033[1;31m] \033[1;32mCheeto Client
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐
                                                 \033[1;32m║    \033[1;39m   Blatant     \033[1;32m║
@@ -243,6 +244,9 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m112.2\033[1;31m] \033[1;32mPolarWare \033[1;31m[\033[1;33mHaven't check yet\033[1;31m]
 \033[1;31m[\033[1;39m113.2\033[1;31m] \033[1;32mDoomsDay \033[1;31m[\033[1;33mLatest\033[1;31m]
 \033[1;31m[\033[1;39m114.2\033[1;31m] \033[1;Exibition  
+\033[1;31m[\033[1;39m115.2\033[1;31m] \033[1;32mMyau \033[1;31m[\033[1;33mlastest 31/12/24\033[1;31m] 
+\033[1;31m[\033[1;39m116.2\033[1;31m] \033[1;32mOpal \033[1;31m[\033[1;33mlastest 31/12/24\033[1;31m]
+\033[1;31m[\033[1;39m117.2\033[1;31m] \033[1;32mOringo \033[1;31m[\033[1;33mhpx skyblock client\033[1;31m]
 \033[1;97m= = = = = =  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌───────────────────┐          
                                                 \033[1;32m║  \033[1;39m     Clicker     \033[1;32m║          
@@ -403,6 +407,7 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m47.4\033[1;31m] \033[1;32mHades
 \033[1;31m[\033[1;39m48.4\033[1;31m] \033[1;32mIntave \033[1;31m[\033[1;33m14.5.6\033[1;31m] 
 \033[1;31m[\033[1;39m49.4\033[1;31m] \033[1;32mDegrade
+\033[1;31m[\033[1;39m50.4\033[1;31m] \033[1;32mGrim \033[1;31m[\033[1;33mv3\033[1;31m]
 \033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
                                                 \033[1;39m┌──────────────────┐
                                                 \033[1;32m║ \033[1;39m     Others      \033[1;32m║
@@ -729,6 +734,8 @@ def minecraft_ui(main_ui):
                webbrowser.open_new("https://github.com/Oxy-Client/Client")
            elif chon == '97.1':
                webbrowser.open_new("https://www.mediafire.com/file/5fkv4m39dy0fmbw/Unicorn.zip/file")
+           elif chon == '98.1':
+               webbrowser.open_new("http://johnspecial.ydns.eu/cheeto")
            elif chon == '1.2':
                os.system('cls')
                vestige(minecraft_ui)
@@ -960,6 +967,12 @@ def minecraft_ui(main_ui):
                webbrowser.open_new("https://doomsdayclient.com/")
            elif chon == '114.2':
                webbrowser.open_new("https://minesense.pub/download/")
+           elif chon == '115.2':
+               webbrowser.open_new("http://johnspecial.ydns.eu/myau")
+           elif chon == '116.2':
+               webbrowser.open_new("http://johnspecial.ydns.eu/opal")
+           elif chon == '117.2':
+               webbrowser.open_new("http://johnspecial.ydns.eu/oringo")
            elif chon == '1.3':
                webbrowser.open_new("https://www.mediafire.com/file/uixqtdbh7laysge/1337_Clicker.zip/file")
            elif chon == '2.3':
@@ -1259,6 +1272,8 @@ def minecraft_ui(main_ui):
                webbrowser.open_new("https://www.mediafire.com/file/tqagz2vmh0gaazg/Intave-14.5.6.jar/file")
            elif chon == '49.4':
                webbrowser.open_new("https://github.com/splatboydev/Degrade")
+           elif chon == '50.4':
+               webbrowser.open_new("http://johnspecial.ydns.eu/grimac3")
            elif chon == '1.5':
                webbrowser.open_new("https://www.mediafire.com/file/zamuavediau7jdg/grand0x_private_source.zip/file")
            elif chon == '2.5':
