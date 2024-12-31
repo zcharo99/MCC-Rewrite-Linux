@@ -24,6 +24,7 @@ def credits(main_ui):
                                  | hvh.net (https://hackvshack.net)                  |
                                  | HydraReverse (t.me/hydrareverse)                  |
                                  | Anon-Team (https://t.me/anonteam1337)             |
+                                 | JohnXina (https://johnspecial.ydns.eu)            |
 
 
                               Report to us if you found any invite link here not working.
