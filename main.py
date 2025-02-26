@@ -7,9 +7,14 @@ def windowtitle(a):
     sys.stdout.flush()
 windowtitle(f"MCC Loader {current_version}")
 def update():
+    official_ver_url = "https://raw.githubusercontent.com/mcc-loader/Loader/refs/heads/main/version"
     version_url = "https://raw.githubusercontent.com/zcharo99/MCC-Rewrite-Linux/refs/heads/main/version"
 
+    official_response = requests.get(official_ver_url)
     response = requests.get(version_url)
+    if official_response != response:
+        print("\033[1;39m[\033[0;31mMCC Loader\033[1;39m] \033[1;39mFork version mismatch. Please report this error.")
+
     github_version = response.text.strip()
 
     if current_version != github_version:
