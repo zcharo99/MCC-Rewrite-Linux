@@ -13,7 +13,8 @@ def update():
     official_response = requests.get(official_ver_url)
     response = requests.get(version_url)
     if official_response != response:
-        print("\033[1;39m[\033[0;31mMCC Loader\033[1;39m] \033[1;39mFork version mismatch. Please report this error.")
+        print("\033[1;39m[\033[0;31mMCC Loader\033[1;39m] \033[1;39mFork version mismatch. Please report this error. Continuing in 5 seconds.")
+        time.sleep(5)
 
     github_version = response.text.strip()
 
