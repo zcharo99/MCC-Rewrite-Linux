@@ -58,11 +58,11 @@ def csgo(main_ui):
 
 """
        while True:
-           os.system('cls')
+           os.system('clear')
            print(mine)
            chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
            if chon == '-':
-               os.system('cls')
+               os.system('clear')
                cs2(main_ui)
            elif chon == '1.1':
                webbrowser.open_new("https://unk.is")

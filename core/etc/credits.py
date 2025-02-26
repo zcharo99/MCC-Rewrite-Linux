@@ -32,6 +32,6 @@ def credits(main_ui):
     """
     
     Anime.Fade(banner, Colors.white_to_black, Colorate.Vertical, enter=True)
-    os.system('cls')
+    os.system('clear')
     print("Leaving Credit")
     main_ui(minecraft_ui)

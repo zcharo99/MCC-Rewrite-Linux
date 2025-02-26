@@ -39,11 +39,11 @@ def ss_tools(minecraft_ui):
 
 
     while True:
-        os.system('cls')
+        os.system('clear')
         print(clean)
         chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
         if chon == '-':
-            os.system('cls')
+            os.system('clear')
             minecraft_ui(ss_tools)
         elif chon == '1':
             webbrowser.open_new("https://cdn.discordapp.com/attachments/1148033696641859584/1171827433549336657/Masew_Cleaner.exe?ex=655e1857&is=654ba357&hm=9b7cd01dfe5d28b2b8d14c20db6209a9aa8b608085f4fa7b84a2e046896fc87d&")

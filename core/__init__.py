@@ -4,7 +4,7 @@ import time
 import re
 import io
 import requests
-import msvcrt
+import getch
 import colorama
 import subprocess
 from time import sleep, strftime

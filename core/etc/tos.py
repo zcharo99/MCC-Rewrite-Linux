@@ -18,21 +18,21 @@ def display_tos():
     def confirm():
         Anime.Fade(Center.Center(TOS2), Colors.white_to_red, Colorate.Vertical, enter=True)
 
-    os.system('cls')
+    os.system('clear')
     print(TOS)
     time.sleep(1)
     print("\033[1;39m[\033[0;31mMCC Loader\033[1;39m] \033[1;39mThe user hasn't accepted MCC Loader's terms of service.")
     time.sleep(1)
     print("\033[1;39m[\033[0;31mMCC Loader\033[1;39m] \033[1;39mRedirecting user to : \033[0;31mTOSArea.")
     time.sleep(3)
-    os.system('cls')
+    os.system('clear')
     print(TOS2)
     confirm()
 
     if True:
         accept_tos(minecraft_ui)
 def accept_tos(minecraft_ui):
-    os.system('cls')
+    os.system('clear')
 
     confirmation = print("\033[1;31m                                Press any key only when you agree and understand the TOS.")
     
@@ -59,7 +59,7 @@ def accept_tos(minecraft_ui):
     """[1:]
     
     Write.Print(banner, Colors.white_to_green, interval=0.00025)
-    msvcrt.getch()
+    getch.getch()
 
-    open("TOSVDOIAHWOIHSAKLFHWA.txt", "w").write("""This user has accepted MCC's Archive's terms of service.""")
+    open("tos.txt", "w").write("""This user has accepted MCC's Archive's terms of service.""")
     main_ui(minecraft_ui)

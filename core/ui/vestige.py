@@ -31,11 +31,11 @@ def vestige(minecraft_ui):
 """
 
   while True:
-    os.system('cls')
+    os.system('clear')
     print(ves)
     chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
     if chon == '-':
-        os.system('cls')
+        os.system('clear')
         minecraft_ui(vestige)
     elif chon == '1.9.5':
         webbrowser.open_new("https://www.mediafire.com/file/fowj4gm0k6a67ey/Vestige_1.9.5.zip/file")

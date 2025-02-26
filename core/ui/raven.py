@@ -55,11 +55,11 @@ def raven(minecraft_ui):
     """
 
     while True:
-        os.system('cls')
+        os.system('clear')
         print(raven)
         chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')        
         if chon == '-':
-            os.system('cls')
+            os.system('clear')
             minecraft_ui(raven)
         elif chon == 'B1':
             webbrowser.open_new("https://www.mediafire.com/file/8wbt1e7r7gz4wrq/Raven_B1.jar/file")

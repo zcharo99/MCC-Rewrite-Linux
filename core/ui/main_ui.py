@@ -27,25 +27,25 @@ def main_ui(minecraft_ui):
     """
     print(nig)
     while True:
-        os.system('cls')
+        os.system('clear')
         print(nig)
         chon = Write.Input("           [×] >>  ", Colors.red_to_purple, interval=0.0025)
         
         if chon == '1':
             print("                                              \033[1;39mLoading Minecraft Page..")
-            os.system('cls')
+            os.system('clear')
             minecraft_ui(main_ui)
         if chon == '2':
             print("                                              \033[1;39mLoading CS:GO Page..")
-            os.system('cls')
+            os.system('clear')
             csgo(main_ui)
         if chon == '3':
             print("                                              \033[1;39mLoading CS2 Page..")
-            os.system('cls')
+            os.system('clear')
             cs2(main_ui)
         elif chon == 'c' or chon == 'C':
             print("                                                  \033[1;39mRendering Credits..")
-            os.system('cls')
+            os.system('clear')
             credits(main_ui)
         
         else:

@@ -51,11 +51,11 @@ def liquidbounce(minecraft_ui):
 \033[1;31m[\033[1;39mMB\033[1;31m] \033[1;32mMinusBounce"""
 
     while True:
-        os.system('cls')
+        os.system('clear')
         print(Liq)
         chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
         if chon == '-':
-            os.system('cls')
+            os.system('clear')
             minecraft_ui(liquidbounce)
         elif chon == 'LB':
             webbrowser.open_new("https://liquidbounce.net/download")

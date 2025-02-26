@@ -53,11 +53,11 @@ def rise(minecraft_ui):
 
 
   while True:
-        os.system('cls')
+        os.system('clear')
         print(risse)
         chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
         if chon == '-':
-            os.system('cls')
+            os.system('clear')
             minecraft_ui(rise)
         elif chon == 'P':
             webbrowser.open_new("https://www.mediafire.com/file/48i74z1wnp4icox/Rise+Patcher.zip/file")

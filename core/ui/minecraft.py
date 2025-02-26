@@ -531,14 +531,14 @@ def minecraft_ui(main_ui):
 \033[1;31m[\033[1;39m-\033[1;31m] \033[1;32mScreen Share Tools 
 """
        while True:
-           os.system('cls')
+           os.system('clear')
            print(mine)
            chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
            if chon == '-':
-               os.system('cls')
+               os.system('clear')
                ss_tools(minecraft_ui)
            elif chon == '1.1':
-               os.system('cls')
+               os.system('clear')
                vape(minecraft_ui)
            elif chon == '2.1':
                webbrowser.open_new("https://www.mediafire.com/file/1ogrrrao7vkef7s/Blossom.zip/file")
@@ -567,7 +567,7 @@ def minecraft_ui(main_ui):
            elif chon == '14.1':
                webbrowser.open_new("https://www.mediafire.com/file/njdn9o73gehyxxb/Lithium_Lite.zip/file")
            elif chon == '15.1':
-               os.system('cls')
+               os.system('clear')
                raven(minecraft_ui)
            elif chon == '16.1':
                webbrowser.open_new("https://www.mediafire.com/file/9bw1ggpe6lpitpe/Fractal.zip/file")
@@ -737,7 +737,7 @@ def minecraft_ui(main_ui):
            elif chon == '98.1':
                webbrowser.open_new("http://johnspecial.ydns.eu/cheeto")
            elif chon == '1.2':
-               os.system('cls')
+               os.system('clear')
                vestige(minecraft_ui)
            elif chon == '2.2':
                webbrowser.open_new("https://www.mediafire.com/file/pd40jvic352zopy/Huzuni_Dev15_%25281.8%2529.zip/file")
@@ -766,7 +766,7 @@ def minecraft_ui(main_ui):
            elif chon == '14.2':
                webbrowser.open_new("https://www.mediafire.com/file/komh0qjyq6lh6de/Moon.rar/file")
            elif chon == '15.2':
-               os.system('cls')
+               os.system('clear')
                rise(minecraft_ui)
            elif chon == '16.2':
                webbrowser.open_new("https://www.mediafire.com/file/itc99scy7znfwfd/Dortware.zip/file")
@@ -809,7 +809,7 @@ def minecraft_ui(main_ui):
            elif chon == '35.2':
                webbrowser.open_new("https://www.mediafire.com/file/7qqpq8clygn4etr/Clean.zip/file")
            elif chon == '36.2':
-               os.system('cls')
+               os.system('clear')
                liquidbounce(minecraft_ui)
            elif chon == '37.2':
                webbrowser.open_new("https://qiwi.gg/file/2RcMi0g8Pig81WTyTmwEmxHChiy-317395-Augustus")

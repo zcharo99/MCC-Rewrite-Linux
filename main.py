@@ -1,11 +1,13 @@
 from core import *
 
+current_version = "2.0.0"
+
 def windowtitle(a):
-    os.system(f"title {a}")
-windowtitle("MCC Loader 2.0.0")
+    sys.stdout.write(f"\033]0;{a}\007")
+    sys.stdout.flush()
+windowtitle(f"MCC Loader {current_version}")
 def update():
-    current_version = "2.0.0"
-    version_url = "https://raw.githubusercontent.com/mcc-loader/Loader/refs/heads/main/version"
+    version_url = "https://raw.githubusercontent.com/zcharo99/MCC-Rewrite-Linux/refs/heads/main/version"
 
     response = requests.get(version_url)
     github_version = response.text.strip()
@@ -15,7 +17,7 @@ def update():
         time.sleep(1)
 
         if user_input == "yes":
-            webbrowser.open("https://github.com/mcc-loader/Loader/")
+            webbrowser.open("https://github.com/zcharo99/MCC-Rewrite-Linux")
             os._exit(0)
         else:
             print("\033[1;39m[\033[0;31mMCC Loader\033[1;39m] \033[1;39mContinuing with the current version.")
@@ -25,12 +27,12 @@ def update():
         time.sleep(1)
 update()
 try:
-    f = open('tos.txt')
+    f = os.open("tos.txt", os.O_RDONLY)
 except FileNotFoundError:
     display_tos()
 else:
-    f.close
-    subprocess.check_call(["attrib", "+H", "tos.txt"])
+    os.close(f)
+    os.rename("tos.txt", ".tos.txt")
 banner = f"""                                      You have accepted MCC Loader's terms of service.
 
                  ███╗░░░███╗░█████╗░░█████╗░██╗░██████╗  ░█████╗░██████╗░░█████╗░██╗░░██╗██╗██╗░░░██╗███████╗
